@@ -1,6 +1,5 @@
-# Install Homebrew
+# Update and Upgrade
 
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew update
 brew upgrade
 
@@ -12,7 +11,9 @@ apps=(
     exa
     ffmpeg
     fasd
+    fd
     gh
+    git
     httpie
     imagemagick
     nvm
@@ -23,6 +24,15 @@ apps=(
 )
 
 brew install "${apps[@]}"
+
+# Install Casks
+
+apps=(
+    alfred
+    iterm2
+)
+
+brew install "${apps[@]}" --cask
 
 # Install Fonts
 
