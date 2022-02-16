@@ -10,3 +10,6 @@ source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 alias config='/usr/bin/git --git-dir=/Users/ethan/.cfg/ --work-tree=/Users/ethan'
+alias ls='exa'
+
+autoload -Uz compinit && compinit
