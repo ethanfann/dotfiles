@@ -8,13 +8,15 @@ brew upgrade
 
 apps=(
     awscli
+    devutils
+    exa
     ffmpeg
     fasd
     gh
-    git
     httpie
     imagemagick
     nvm
+    procs
     rbenv
     ripgrep
     starship
