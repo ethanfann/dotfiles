@@ -41,6 +41,7 @@ brew tap homebrew/cask-fonts
 fonts=(
     font-fira-code
     font-jetbrains-mono
+    font-hack-nerd-font
 )
 
 brew install --cask "${fonts[@]}"
