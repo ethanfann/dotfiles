@@ -42,6 +42,7 @@ fonts=(
     font-fira-code
     font-jetbrains-mono
     font-hack-nerd-font
+    font-jetbrains-mono-nerd-font
 )
 
 brew install --cask "${fonts[@]}"
