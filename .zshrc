@@ -13,5 +13,6 @@ alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 alias ls='exa'
 alias ps='procs'
 alias coffee='caffeinate'
+alias find='fd'
 
 autoload -Uz compinit && compinit
