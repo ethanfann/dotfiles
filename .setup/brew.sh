@@ -7,7 +7,7 @@ brew upgrade
 
 apps=(
     awscli
-    devutils
+    boop
     exa
     ffmpeg
     fasd
@@ -16,6 +16,7 @@ apps=(
     git
     httpie
     imagemagick
+    jql
     nvm
     procs
     rbenv
