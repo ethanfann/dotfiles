@@ -31,6 +31,7 @@ brew install "${apps[@]}"
 apps=(
     alfred
     iterm2
+    itsycal
 )
 
 brew install "${apps[@]}" --cask
