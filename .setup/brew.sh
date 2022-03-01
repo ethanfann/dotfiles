@@ -16,6 +16,7 @@ apps=(
     git
     httpie
     imagemagick
+    jless
     jql
     nvm
     procs
