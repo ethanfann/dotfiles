@@ -19,6 +19,7 @@ apps=(
     jless
     jql
     mas
+    micro
     procs
     rbenv
     ripgrep
@@ -31,6 +32,7 @@ brew install "${apps[@]}"
 
 apps=(
     alfred
+    flux
     iterm2
     itsycal
     raycast
