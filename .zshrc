@@ -14,5 +14,6 @@ alias ls='exa'
 alias ps='procs'
 alias coffee='caffeinate'
 alias find='fd'
+alias tree='exa --tree'
 
 autoload -Uz compinit && compinit
