@@ -18,7 +18,7 @@ apps=(
     imagemagick
     jless
     jql
-    nvm
+    mas
     procs
     rbenv
     ripgrep
