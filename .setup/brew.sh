@@ -6,6 +6,7 @@ brew upgrade
 # Install Packages
 
 apps=(
+    alt-tab
     awscli
     boop
     exa
