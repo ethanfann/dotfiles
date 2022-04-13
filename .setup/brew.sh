@@ -36,7 +36,6 @@ apps=(
     flux
     iterm2
     itsycal
-    raycast
 )
 
 brew install "${apps[@]}" --cask
